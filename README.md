@@ -23,100 +23,100 @@ Design
 
 Instructions tested
 -------------------
-lpm
-lpm     r,Z
-lpm     r,Z+
+	lpm
+	lpm     r,Z
+	lpm     r,Z+
 
-lds     r,k
-ld      r,X
-ld      r,X+
-ld      r,-X
-ld      r,Y
-ld      r,Y+
-ld      r,-Y
-ldd     r,Y+q
-ld      r,Z
-ld      r,Z+
-ld      r,-Z
-ldd     r,Z+q
+	lds     r,k
+	ld      r,X
+	ld      r,X+
+	ld      r,-X
+	ld      r,Y
+	ld      r,Y+
+	ld      r,-Y
+	ldd     r,Y+q
+	ld      r,Z
+	ld      r,Z+
+	ld      r,-Z
+	ldd     r,Z+q
 
-sts     k,r
-st      X,r
-st      X+,r
-st      -X,r
-st      Y,r
-st      Y+,r
-st      -Y,r
-std     Y+q,r
-st      Z,r
-st      Z+,r
-st      -Z,r
-std     Z+q,r
+	sts     k,r
+	st      X,r
+	st      X+,r
+	st      -X,r
+	st      Y,r
+	st      Y+,r
+	st      -Y,r
+	std     Y+q,r
+	st      Z,r
+	st      Z+,r
+	st      -Z,r
+	std     Z+q,r
 
-push    r
-pop     r
+	push    r
+	pop     r
 
-nop
-swap    r
-neg     r
-dec     r
-inc     r
-com     r
-asr     r
-lsr     r
-ror     r
+	nop
+	swap    r
+	neg     r
+	dec     r
+	inc     r
+	com     r
+	asr     r
+	lsr     r
+	ror     r
 
-mov     r,r
-movw    r,r
-cp      r,r
-cpc     r,r
-add     r,r
-adc     r,r
-sub     r,r
-sbc     r,r
-and     r,r
-or      r,r
-eor     r,r
+	mov     r,r
+	movw    r,r
+	cp      r,r
+	cpc     r,r
+	add     r,r
+	adc     r,r
+	sub     r,r
+	sbc     r,r
+	and     r,r
+	or      r,r
+	eor     r,r
 
-ldi     r,K
-cpi     r,K
-subi    r,K
-sbci    r,K
-andi    r,K
-ori     r,K
-adiw    r,K
-sbiw    r,K
+	ldi     r,K
+	cpi     r,K
+	subi    r,K
+	sbci    r,K
+	andi    r,K
+	ori     r,K
+	adiw    r,K
+	sbiw    r,K
 
-mul     r,r
-muls    r,r
-mulsu   r,r
-fmul    r,r
-fmuls   r,r
-fmulsu  r,r
+	mul     r,r
+	muls    r,r
+	mulsu   r,r
+	fmul    r,r
+	fmuls   r,r
+	fmulsu  r,r
 
-bclr    b
-bset    b
-bld     r,b
-bst     r,b
-cbi     p,b
-sbi     p,b
-in      r,A
-out     A,r
+	bclr    b
+	bset    b
+	bld     r,b
+	bst     r,b
+	cbi     p,b
+	sbi     p,b
+	in      r,A
+	out     A,r
 
-sbic    A,b
-sbis    A,b
-sbrc    r,b
-sbrs    r,b
-cpse    r,r
-brbc    b,k
-brbs    b,k
+	sbic    A,b
+	sbis    A,b
+	sbrc    r,b
+	sbrs    r,b
+	cpse    r,r
+	brbc    b,k
+	brbs    b,k
 
-rjmp    k
-rcall   k
-ijmp
-icall
-ret
-reti
+	rjmp    k
+	rcall   k
+	ijmp
+	icall
+	ret
+	reti
 
 -- 
 Shay Green <gblargg@gmail.com>
